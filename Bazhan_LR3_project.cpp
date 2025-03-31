@@ -6,8 +6,11 @@ using namespace std;
 
 double enter_A() {
 
-    //коооооооооод
+    int A;
+    cout << "Введите число A: ";
+    cin >> A;
 
+    cout >> "Число А: " << A << endl;
 
 }
 
