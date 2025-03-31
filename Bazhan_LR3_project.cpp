@@ -10,7 +10,7 @@ double enter_A() {
     cout << "Введите число A: ";
     cin >> A;
 
-    cout >> "Число А: " << A << endl;
+    cout << "Число А: " << A << endl;
 
 }
 
