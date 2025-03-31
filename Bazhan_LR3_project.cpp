@@ -16,7 +16,11 @@ double enter_A() {
 
 double enter_B() {
 
-    //коооооооооод
+    int B;
+    cout << "Введите число B: ";
+    cin >> B;
+
+    cout << "Число B: " << B << endl;
 
 }
 
