@@ -36,8 +36,23 @@ double proizv(int A, int B) {
 
 double delen(int A, int B) {
 
+    int del;
 
-    //коооооооооод
+    if (B != -0) {
+
+        del = A/B;
+
+    } else {
+
+        cout << "Введите число отличное от нуля: ";
+        
+        cin >> B;
+
+        del = A/B;
+
+    }
+
+    return del;
 
 }
 
@@ -67,11 +82,17 @@ int main() {
                 B = enter_B();
                 break;
             case 3:
+                proizv(A,B);
+                break;
 
             case 4:
-            
+                delen(A,B);
+                break;
+
             case 0:
-               cout << ""
+                cout << "";
+            default: 
+                cout << "Неверный ввод, повторите ввод.";
 
         }
 
